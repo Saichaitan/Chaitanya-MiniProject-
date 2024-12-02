@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="7" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="7" parallel="tests" name="HomePageTest(failed)">
+    <classes>
+      <class name="HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testHomePage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- HomePageTest -->
+    </classes>
+  </test> <!-- HomePageTest(failed) -->
+  <test thread-count="7" parallel="tests" name="LoginPageTest(failed)">
+    <classes>
+      <class name="LoginPageTest">
+        <methods>
+          <include name="testLoginPageUI"/>
+          <include name="testLoginPageFunctionalities"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- LoginPageTest -->
+    </classes>
+  </test> <!-- LoginPageTest(failed) -->
+  <test thread-count="7" parallel="tests" name="PopularPageTest(failed)">
+    <classes>
+      <class name="PopularPageTest">
+        <methods>
+          <include name="testPopularPgeUI"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- PopularPageTest -->
+    </classes>
+  </test> <!-- PopularPageTest(failed) -->
+  <test thread-count="7" parallel="tests" name="HeaderSectionTest(failed)">
+    <classes>
+      <class name="HeaderSectionTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testHeaderSectionUI"/>
+          <include name="testHeaderSectionFunctionalities"/>
+        </methods>
+      </class> <!-- HeaderSectionTest -->
+    </classes>
+  </test> <!-- HeaderSectionTest(failed) -->
+  <test thread-count="7" parallel="tests" name="AccountPageTest(failed)">
+    <classes>
+      <class name="AccountPageTest">
+        <methods>
+          <include name="testAccountPage"/>
+          <include name="testAccountPageLogoutFun"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- AccountPageTest -->
+    </classes>
+  </test> <!-- AccountPageTest(failed) -->
+  <test thread-count="7" parallel="tests" name="SearchPageTest(failed)">
+    <classes>
+      <class name="SearchPageTest">
+        <methods>
+          <include name="testSearchFunctionality"/>
+          <include name="testSearchFailureFunctionality"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- SearchPageTest -->
+    </classes>
+  </test> <!-- SearchPageTest(failed) -->
+  <test thread-count="7" parallel="tests" name="MovieDetailsPageTest(failed)">
+    <classes>
+      <class name="MovieDetailsPageTest">
+        <methods>
+          <include name="testMovieDetailsPage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="popularpage"/>
+        </methods>
+      </class> <!-- MovieDetailsPageTest -->
+    </classes>
+  </test> <!-- MovieDetailsPageTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
